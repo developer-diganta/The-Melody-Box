@@ -70,7 +70,7 @@ background-blend-mode: multiply;
 .round_img img{
     width: 200px;
     height: 200px;
-    
+
     padding: 2%;
     margin-top: 4%;
     margin-right: 4%;
@@ -100,15 +100,24 @@ background-blend-mode: multiply;
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  /* padding: 16px; */
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
 }
 .abt{
   color:rgb(157,101,201);font-size:30px;
+
 }
 .abt:hover{
   font-size:36px;
+  transition-delay: .2;
+}
+.abti{
+  width:50px;
+}
+.abti:hover{
+  width:60px;
+
   transition-delay: .2;
 }
