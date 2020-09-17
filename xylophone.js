@@ -14,6 +14,13 @@ document.addEventListener("keydown",function(event){
   buttonAnimation(event.key);
 })
 
+
+var screensize=$(window).width();
+if(screensize<992){
+  alert("Lower Screen Size May Result in DISTORTED PLAYER!! Try landscape mode if you find any problem!");
+}
+
+
 function makeSound(button){
   console.log(button);
   var btn=button;
@@ -21,7 +28,7 @@ function makeSound(button){
     case "a":
       var tom1=new Audio("A.wav");
       tom1.play();
-      
+
     break;
     case "A":
     console.log("Aaaaaaa");

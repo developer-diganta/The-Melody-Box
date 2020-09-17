@@ -150,6 +150,10 @@ function makeSound(button){
 }
 
 
+var screensize=$(window).width();
+if(screensize<992){
+  alert("Lower Screen Size May Result in DISTORTED PLAYER!! Try landscape mode if you find any problem!");
+}
 
 
 function buttonAnimation(key){
